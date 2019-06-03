@@ -1,0 +1,62 @@
+[
+    {
+       "id":1,
+       "data": { "id": 1},
+       "text":"Root node 1",
+       "li_attr": {"type" : "Core"},
+       "children":[
+          {
+             "id":2,
+             "data": { "id": 2.1},
+             "text":"Child node 1",
+             "li_attr": {"type" : "Core"}
+          },
+          {
+             "id":3,
+             "data": { "id": 3.1},
+             "text":"Child node 2",
+             "li_attr": {"type" : "Core"}
+          }
+       ]
+    },
+    {
+       "id":4,
+       "data": { "id": 4},
+       "text":"Root node 2",
+       "li_attr": {"type" : "Kiosk"},
+       "children":[
+          {
+             "id": 4.1,
+             "data": { "id": 4.1},
+             "text":"Child node 1",
+             "li_attr": {"type" : "Kiosk"}
+          },
+          {
+             "id":4.2,
+             "data": { "id": 3.1},
+             "text":"Child node 2",
+             "li_attr": {"type" : "Kiosk"}
+          }
+       ]
+    },
+    {
+       "id":5,
+       "data": { "id": 5},
+       "text":"Root node 2",
+       "li_attr": {"type" : "Kiosk"},
+       "children":[
+          {
+             "id": 5.1,
+             "data": { "id": 5.1},
+             "text":"Child node 1",
+             "li_attr": {"type" : "Kiosk"}
+          },
+          {
+             "id":5.2,
+             "data": { "id": 5.2},
+             "text":"Child node 2",
+             "li_attr": {"type" : "Kiosk"}
+          }
+       ]
+    }
+ ]
